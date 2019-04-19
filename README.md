@@ -17,5 +17,6 @@ Maximum length of transaction password: 12
 No white spaces 
 ``` 
 #### Testing the scripts  
-Tests are to be run with pytest or py.test on the root folder
-
+Tests are to be run with pytest or py.test on the root folder 
+#### Running the code 
+ [repls online python compiler/editor](https://repl.it/@antonnifo/icodeAIsandbox "Run the code")
