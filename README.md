@@ -1,4 +1,16 @@
-# icodeAI Challange [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Maintainability](https://api.codeclimate.com/v1/badges/787afbed9ac0111ba9cc/maintainability)](https://codeclimate.com/github/antonnifo/icodeAI_sandbox/maintainability)
+# icodeAI Challange [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Maintainability](https://api.codeclimate.com/v1/badges/787afbed9ac0111ba9cc/maintainability)](https://codeclimate.com/github/antonnifo/icodeAI_sandbox/maintainability) 
+#### Getting Started 
+ > git clone https://github.com/antonnifo/icodeAI_sandbox  
+ > create a virtual environment,activate it & install the dependencies  
+ ```
+ virtualenv venv -p python3
+ source venv/bin/activate
+ pip3 install -r requirements.txt
+ python3 dice_simulator.py
+ python3 pass_checker.py
+ pytest
+ ```
+ 
 #### Dice Rolling Simulator 
 
 When the program runs, it will randomly choose a number between 1 and 6.
