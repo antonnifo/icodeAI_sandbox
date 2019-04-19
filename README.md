@@ -6,8 +6,8 @@
  virtualenv venv -p python3
  source venv/bin/activate
  pip3 install -r requirements.txt
- python3 dice_simulator.py
- python3 pass_checker.py
+ python3 dice/dice_simulator.py 
+ python3 password/pass_checker.py
  pytest
  ```
  
@@ -31,4 +31,4 @@ No white spaces
 #### Testing the scripts  
 Tests are to be run with pytest or py.test on the root folder 
 #### Running the code 
- [repls...online python compiler/editor](https://repl.it/@antonnifo/icodeAIsandbox "Run the code")
+ [repls...online python compiler/editor](https://repl.it/@antonnifo/icodeAIsandbox-1 "Run the code")
