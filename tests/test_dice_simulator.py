@@ -1,5 +1,5 @@
 from unittest import TestCase
-from dice_simulator import roll_dice
+from dice.dice_simulator import roll_dice
 
 class TestRollDiceTestCase(TestCase):
   

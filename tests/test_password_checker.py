@@ -1,5 +1,5 @@
 from unittest import TestCase
-from pass_checker import validate_password
+from password.pass_checker import validate_password
 
 class TestPasswordTestCase(TestCase):
     def setUp(self):
